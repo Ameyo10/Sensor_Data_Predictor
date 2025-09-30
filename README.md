@@ -4,7 +4,7 @@ This project integrates a CNN+RNN deep learning model for sensor-based human act
 
 # Project Structure
 
-Sensor_prediction.ipynb
+# Sensor_prediction.ipynb
 
 Trains a CNN+RNN hybrid model on sensor data (e.g., accelerometer, gyroscope).
 
@@ -16,7 +16,7 @@ Model architecture: CNN (feature extraction) + RNN (temporal patterns)
 
 Training, evaluation, and saving the model for later use
 
-LLM_for_Sensor_prediction.ipynb
+# LLM_for_Sensor_prediction.ipynb
 
 Fine-tunes a GPT-2 model for handling user queries in natural language.
 
@@ -28,7 +28,7 @@ Fine-tune on project-specific prompts/responses
 
 Save tokenizer and model weights
 
-Integrating_models.ipynb
+# Integrating_models.ipynb
 
 Combines the trained CNN+RNN model and GPT-2 model.
 
