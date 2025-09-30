@@ -8,7 +8,7 @@ Sensor_prediction.ipynb
 
 Trains a CNN+RNN hybrid model on sensor data (e.g., accelerometer, gyroscope).
 
-Tasks:
+### Tasks:
 
 Data preprocessing & train/test split
 
@@ -20,7 +20,7 @@ LLM_for_Sensor_prediction.ipynb
 
 Fine-tunes a GPT-2 model for handling user queries in natural language.
 
-Tasks:
+### Tasks:
 
 Load pretrained GPT-2
 
