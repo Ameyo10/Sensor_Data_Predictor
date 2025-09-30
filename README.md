@@ -67,10 +67,11 @@ The assistant class in Integrating_models.ipynb coordinates between sensor model
 
 Clone the repo and install dependencies:
 
+<pre> ```
 git clone <your_repo_url>
 cd <repo>
 pip install -r requirements.txt
-
+``` </pre>
 
 Train CNN+RNN model:
 Open Sensor_prediction.ipynb → run all cells → saves cnn_rnn_model.pth.
@@ -82,11 +83,15 @@ Integrate & test:
 Open Integrating_models.ipynb → interact with assistant using queries.
 
 # Example Queries
+
+<pre> ```
 assistant.query_llm("Predict the activity", sensor_data=x_test.iloc[0].values)
 
 assistant.query_llm("Show me data for Walking")
 
 assistant.query_llm("What does the array look like for Sitting?")
+``` </pre>
+  
 
 # Future Work
 
