@@ -100,3 +100,8 @@ Expand dataset with more activities
 Use larger LLMs for richer query understanding
 
 Deploy as a REST API or streamlit app for interactive demos
+
+# Problem Facing:
+In the Integrating_models.ipynb there at the last there are 3 categories, "Walking", "Walking Upwards", "Walking Downwards". Since Walking is coming in all of them so the model as soon as encounters "Walking" shows data, of it and ignores the word next to it. Method tried here, LLM to identify the word and for loop. Also taken into account, the using the name of activities as List but no furthur progress. Can work if we use  "Walking_Upwards", "Walking_Downwards" but it won't be use friendly. 
+
+### Open for suggestions and help.
